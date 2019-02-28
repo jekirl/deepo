@@ -21,7 +21,7 @@ def main():
     parser.add_argument('path')
     parser.add_argument('modules', nargs='*')
     parser.add_argument('--cuda-ver')
-    parser.add_argument('--cudnn-ver')
+    parser.add_argument('--cudnn-ver', default='7')
     parser.add_argument('--ubuntu-ver', default='16.04')
     args = parser.parse_args()
 

@@ -22,6 +22,6 @@ class Pytorch(Module):
                 && \
             $PIP_INSTALL \
                 torch_nightly -f \
-                https://download.pytorch.org/whl/nightly/%s/torch_nightly.html \
+                https://download.pytorch.org/whl/%s/torch-1.0.1.post2-cp37-cp37m-linux_x86_64.whl \
                 && \
         ''' % cuver
